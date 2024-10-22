@@ -26,8 +26,19 @@ body {
     background-color: #F9FAF8;
 }
 
+.style-quote {
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7EB;
+}
+
 .content {
-    width: 80%;
+    width: 60%;
 }
 
 .header {
@@ -102,19 +113,34 @@ button {
 .section2 {
     background-color: #F9FAF8;
     width: 100%;
+    height: 20em;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
-.img-container ul {
+.illustration {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-li p {
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 7em; */
+    word-wrap: break-word;
+}
+
+.element p {
     font-size: 12px;
     text-align: center;
+    text-wrap: wrap;
 }
 
 .rect {
@@ -123,4 +149,41 @@ li p {
     height: 7em;
     border: solid 3px #3772f6;
     border-radius: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+}
+
+.call-to-action {
+    margin: 3em 0em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3772f6;
+    border-radius: 10px;
+}
+
+.text-action {
+    color:#F9FAF8
+}
+
+.button-action button{
+    border-color: #F9FAF8;
+
+    border: 1px solid;
+}
+
+#foot {
+    font-size: 15px;
+    font-weight: light;
+    color: #E5E7EB;
 }
