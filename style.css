@@ -8,7 +8,9 @@ body {
 .style-dark {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     background-color: #1F2937;
@@ -18,6 +20,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     background-color: #F9FAF8;
@@ -99,8 +102,25 @@ button {
 .section2 {
     background-color: #F9FAF8;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.img-container ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.rect {
+    margin: auto;
+    width: 7em;
+    height: 7em;
+    border: solid 3px #3772f6;
+    border-radius: 10px;
 }
